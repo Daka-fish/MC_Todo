@@ -1,0 +1,8 @@
+name: Todo
+version: '${project.version}'
+main: net.tv.twitch.chrono_fish.todo.Todo
+api-version: '1.20'
+commands:
+  todo:
+    description: "Todoプラグインのコマンド"
+

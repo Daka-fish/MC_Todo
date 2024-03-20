@@ -1,0 +1,4 @@
+net\tv\twitch\chrono_fish\todo\Todo.class
+net\tv\twitch\chrono_fish\todo\TodoCommand.class
+net\tv\twitch\chrono_fish\todo\TodoManager.class
+net\tv\twitch\chrono_fish\todo\TodoEvent.class
