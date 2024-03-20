@@ -10,9 +10,4 @@ public final class Todo extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new TodoEvent(),this);
         getCommand("todo").setExecutor(new TodoCommand());
     }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
 }
