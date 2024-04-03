@@ -6,7 +6,7 @@ public final class Todo extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        // Plugin startup program
         getServer().getPluginManager().registerEvents(new TodoEvent(),this);
         getCommand("todo").setExecutor(new TodoCommand());
     }
